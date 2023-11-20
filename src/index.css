@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-1:hover{
+    box-shadow: 5px -5px 0px rgb(124, 216, 221);
+    transform: translateX(-5px) translateY(-5px);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.subscribe{
+    background: rgb(12,12,12);
+    background: linear-gradient(135deg, rgba(12,12,12,1) 2%, rgba(14,148,136,0.8128501400560224) 100%);
+}
