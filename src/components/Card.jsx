@@ -45,6 +45,10 @@ const Card = () => {
         <p className="mt-1 text-sm text-gray-300">
           Prepare your research memo with authoritative sources handpicked by AI.
         </p>
+        <a href="#" class="group mt-5 pt-5 text-teal-600 transition duration-300">
+            Learn More
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span>
+          </a>
       </a>
 
       <a
@@ -75,6 +79,10 @@ const Card = () => {
         <p className="mt-1 text-sm text-gray-300">
           Track and manage your cases from start to finish.
         </p>
+        <a href="#" class="group mt-5 pt-5 text-teal-600 transition duration-300">
+            Learn More
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span>
+          </a>
       </a>
 
       <a
@@ -105,7 +113,11 @@ const Card = () => {
         <p className="mt-1 text-sm text-gray-300">
           Draft, review, and store your legal documents with ease.
         </p>
-      </a>
+          <a href="#" class="group mt-5 pt-5 text-teal-600 transition duration-300">
+            Learn More
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-500"></span>
+          </a>
+        </a>
 
     </div>
 

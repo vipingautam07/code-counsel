@@ -1,4 +1,5 @@
 import Card from "./Card"
+import Popup from "./Popup"
 
 
 const Hero = () => {
@@ -12,7 +13,7 @@ const Hero = () => {
   ></div>
 
   <div
-    className="relative mx-auto max-w-screen-xl flex flex-col px-5 py-15 pt-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+    className="relative mx-auto max-w-screen-xl flex flex-col px-5 py-15 pt-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8 font-montserrat"
   >
     <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
       <h1 className="text-3xl font-semibold sm:text-5xl text-white animate__animated animate__fadeInLeft">
@@ -26,10 +27,11 @@ const Hero = () => {
       <div className="mt-8 flex flex-wrap justify-center gap-4 text-center">
         <a
           href="#"
-          className=" block w-full rounded bg-teal-600 px-12 py-3 text-sm font-medium text-white shadow hover:text-teal-500 hover:bg-white focus:outline-none focus:ring active:bg-teal-500 sm:w-auto btn-1"
+          className=" block w-full rounded bg-teal-600 px-12 py-3 text-sm font-medium text-white shadow hover:text-teal-500 hover:bg-white focus:outline-none focus:ring active:bg-teal-500 sm:w-auto btn-1 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" data-hs-overlay="#hs-large-modal"
         >
           Request Demo
         </a>
+        <Popup />
 
         <a
           href="#"
