@@ -1,22 +1,19 @@
-import Nav from './components/Nav';
-import Hero from './components/Hero';
-import Footer from './components/Footer';
-import Subscribe from './components/Subscribe';
-import OffcanvasExample from './components/OffcanvasExample';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home';
+import LegalResearch from './Pages/LegalResearch';
+import ContractDrafting from './Pages/ContractDrafting';
+import CaseManagement from './Pages/CaseManagement';
 import 'animate.css';
 
 const App = () => {
   return (
-    <main className="relative">
-      {/* <Nav /> */}
-      <OffcanvasExample />
-      <Hero />
-      {/* <Card /> */}
-      <Subscribe />
-      <Footer />
-
-    </main>
-  )
-}
+      <Routes>
+        <Route path='/' exact element={<Home />} />
+        <Route path='/legal-research' element={<LegalResearch />} />
+        <Route path='/contract-drafting' element={<ContractDrafting />} />
+        <Route path='/case-management' element={<CaseManagement />} />
+      </Routes>
+  );
+};
 
 export default App

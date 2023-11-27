@@ -1,5 +1,5 @@
 
-const OffcanvasExample = () => {
+const Header = () => {
   return (
     <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full h-ful text-sm py-4 sm:py-0 bg-gray-800">
   <nav
@@ -8,7 +8,7 @@ const OffcanvasExample = () => {
   >
     <div className="relative sm:flex sm:items-center font-montserrat">
       <div className="flex items-center justify-between font-sans">
-        <a className="flex-none text-2xl font-semibold text-white" href="#">
+        <a className="flex-none text-2xl font-semibold text-white" href="/">
           Code Counsel
         </a>
         <div className="sm:hidden">
@@ -91,19 +91,19 @@ const OffcanvasExample = () => {
                 <div className="flex flex-col">
                   <a
                     className="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 text-gray-400 hover:bg-gray-700 hover:text-gray-300 dark:focus:outline-none darfocus:ring-1 darfocus:ring-gray-600"
-                    href="#"
+                    href="/legal-research"
                   >
                     Legal Resesarch
                   </a>
                   <a
                     className="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 text-gray-400 hover:bg-gray-700 hover:text-gray-300 dark:focus:outline-none darfocus:ring-1 darfocus:ring-gray-600"
-                    href="#"
+                    href="/contract-drafting"
                   >
                     Contract Drafting & Review
                   </a>
                   <a
                     className="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 text-gray-400 hover:bg-gray-700 hover:text-gray-300 dark:focus:outline-none darfocus:ring-1 darfocus:ring-gray-600"
-                    href="#"
+                    href="/case-management"
                   >
                     Case Management
                   </a>
@@ -245,4 +245,4 @@ const OffcanvasExample = () => {
   );
 }
 
-export default OffcanvasExample
+export default Header

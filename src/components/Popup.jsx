@@ -16,7 +16,7 @@ const Popup = () => {
       </div>
       <div class="p-4 overflow-y-auto">
         <h4 class="mt-1 mb-3 text-gray-100">
-          Transforming Law with AI Law Innovation.
+          Schedule a call with us, We'll help you with Amicus.
         </h4>
         {/* <div className="flex flex-col-2 w-full">
           <label
@@ -46,7 +46,7 @@ const Popup = () => {
   <div className="w-1/2 text-gray-100 text-left">
     <label htmlFor="firstname">First Name</label>
     <input
-      className="border bg-slate-700 border-gray-400 px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400"
+      className="border bg-slate-700 border-gray-400 px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400 text-xs"
       type="text"
       name="firstname"
       id="firstname"
@@ -57,7 +57,7 @@ const Popup = () => {
   <div className="w-1/2 text-gray-100 text-left">
     <label htmlFor="lastname">Last Name</label>
     <input
-      className="border bg-slate-700 border-gray-400 px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400"
+      className="border bg-slate-700 border-gray-400 px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400 text-xs"
       type="text"
       name="lastname"
       id="lastname"
@@ -70,7 +70,7 @@ const Popup = () => {
   <div className="w-1/2 text-gray-100 text-left">
     <label htmlFor="input-label">E-mail</label>
     <input
-      className="border bg-slate-700 border-gray-400 px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400"
+      className="border bg-slate-700 border-gray-400 px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400 text-xs"
       type="e-mail"
       name="email"
       id="email"
@@ -81,7 +81,7 @@ const Popup = () => {
   <div className="w-1/2 text-gray-100 text-left">
     <label htmlFor="input-label">Contact Number</label>
     <input
-      className="border bg-slate-700 border-gray-400 px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400"
+      className="border bg-slate-700 border-gray-400 px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400 text-xs"
       type="number"
       name="number"
       id="number"
@@ -94,7 +94,7 @@ const Popup = () => {
   <div className="w-1/2 text-gray-100 text-left">
     <label htmlFor="input-label">Website</label>
     <input
-      className="border bg-slate-700 border-gray-400 px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400"
+      className="border bg-slate-700 border-gray-400 px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400 text-xs"
       type="url"
       name="website"
       id="website"
@@ -104,7 +104,7 @@ const Popup = () => {
   <div className="w-1/2 text-gray-100 text-left">
     <label htmlFor="input-label">Title</label>
     <input
-      className="border bg-slate-700 border-gray-400 px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400"
+      className="border bg-slate-700 border-gray-400 px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400 text-xs"
       type="text"
       name="title"
       id="title"
@@ -118,9 +118,9 @@ const Popup = () => {
 
       </div>
       <div class="flex justify-center items-center gap-x-2 py-3 px-4 border-t dark:border-gray-700">
-        <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 btn-1" data-hs-overlay="#hs-large-modal">
+        {/* <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 btn-1" data-hs-overlay="#hs-large-modal">
           Privacy Policy
-        </button>
+        </button> */}
         <button type="submit" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-teal-500 text-white hover:bg-teal-900 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 btn-1">
           Submit
         </button>

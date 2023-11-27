@@ -3,7 +3,7 @@
 const Subscribe = () => {
   return (
 
-<section className= "subscribe">
+ <section className= "subscribe">
   <div className="p-8 md:p-12 lg:px-16 lg:py-24 border-cyan-100 container">
     <div className="mx-auto max-w-lg text-center">
       <h2 className="text-2xl font-bold font-montserrat text-white md:text-3xl">
@@ -33,7 +33,10 @@ const Subscribe = () => {
     </div>
   </div>
   <hr />
-</section>
+</section> 
+
+
+
 
   )
 }
